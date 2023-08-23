@@ -2,7 +2,7 @@ from flask import Flask , render_template , request , jsonify
 import text_sentiment_prediction
 from predict_bot_response import *
 
-app = Flask(__name__)
+
 
 @app.route('/')
 def home():
